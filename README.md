@@ -30,4 +30,4 @@ NOTE: Open .xcworkspace instead of the .xcodeproj file, so dependencies can be f
 
 * Cocoapods is used for dependencies.
 
-* API is consumed by Service class, which has all default behaviors and functions to do requests, handle responses and control UI flows. All childs of this class can override methods to customize any behavior related to networking. Please see Class/Service.swift for more information.
+* API consumption is in charge of Service class, which has all default behaviors and functions to do requests, handle responses and control UI flows. Each child of this class represents one service endpoint and can override super methods to customize any behavior related to networking. Please see Class/Service.swift for more information.
