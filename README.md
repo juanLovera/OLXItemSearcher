@@ -17,9 +17,9 @@ This iPhone app shows publications and items from OLX's public API. It's highly 
 * Highly customizable and maintainable code.
 
 # Requirements
-Swift 3
-XCode 8
-iOS 9+
+Swift 3  
+XCode 8  
+iOS 9+  
 NOTE: Open .xcworkspace instead of the .xcodeproj file, so dependencies can be fully accessible.
 
 # Some technical details
