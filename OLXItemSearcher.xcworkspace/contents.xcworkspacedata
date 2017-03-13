@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/juanlovera/Documents/Developer/OLXItemSearcher/OLXItemSearcher/ItemSearcher.xcodeproj">
+      location = "group:ItemSearcher.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
