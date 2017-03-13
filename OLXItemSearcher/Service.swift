@@ -53,7 +53,8 @@ class Service {
     var completeURL = "\(URL)?"
     if let parameters = URLParameters() {
       for (key, value) in parameters {
-        completeURL = completeURL.appending("\(key)=\(value)&")
+        let encodedValue = value.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
+        completeURL = completeURL.appending("\(key)=\(encodedValue)&")
       }
     }
     return completeURL
