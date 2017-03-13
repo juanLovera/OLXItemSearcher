@@ -26,13 +26,6 @@ struct Config {
     static let cellsPerLineInLandscape = 4
   }
   
-  struct NavBarStyle {
-    static let grandientColors = [UIColor(red:0.96, green:0.96, blue:0.96, alpha:1.0).cgColor,
-                                  UIColor(red:0.90, green:0.90, blue:0.90, alpha:1.0).cgColor]
-    static let gradientStartPoint = CGPoint(x: 0, y: 0)
-    static let gradientEndPoint = CGPoint(x: 0, y: 1)
-  }
-  
   struct SearchBarStyle {
     static let background = UIColor(red:0.21, green:0.47, blue:0.84, alpha:1.0)
   }
