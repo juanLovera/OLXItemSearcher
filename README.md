@@ -20,7 +20,6 @@ This iPhone app shows publications and items from OLX's public API. It's highly 
 Swift 3  
 XCode 8  
 iOS 9+  
-CocoaPods  
 NOTE: Open .xcworkspace instead of the .xcodeproj file, so dependencies can be fully accessible.
 
 # Some technical details
