@@ -38,6 +38,12 @@ class LikesCollectionViewController: UICollectionViewController {
     addObservers()
   }
   
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    let collectionViewLayout = collectionView!.collectionViewLayout as! UICollectionViewFlowLayout
+    collectionViewLayout.invalidateLayout()
+  }
+  
   deinit {
     // Cancels all block operations
     for operation: BlockOperation in blockOperations {
