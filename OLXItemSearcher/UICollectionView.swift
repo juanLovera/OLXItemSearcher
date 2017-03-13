@@ -6,4 +6,16 @@
 //  Copyright © 2017 Juan José Lovera. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UICollectionView {
+  
+  func scrollToTop() {
+    if self.numberOfItems(inSection: 0) == 0 {
+      return
+    }
+    self.scrollToItem(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
+  }
+  
+}
+

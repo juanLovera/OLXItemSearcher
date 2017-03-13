@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashScreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="oND-C0-mUp"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Viewer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bz0-Tt-9eM">
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="38"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OLX Public API" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5D3-R0-QCf">
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5D3-R0-QCf" firstAttribute="top" secondItem="bz0-Tt-9eM" secondAttribute="bottom" constant="0.5" id="3Ll-Gi-Y4z"/>
+                            <constraint firstItem="bz0-Tt-9eM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="4Oc-k9-gD3"/>
+                            <constraint firstAttribute="trailing" secondItem="oND-C0-mUp" secondAttribute="trailing" id="AvS-aw-69O"/>
+                            <constraint firstItem="5D3-R0-QCf" firstAttribute="leading" secondItem="bz0-Tt-9eM" secondAttribute="leading" id="DDm-KF-Gmz"/>
+                            <constraint firstItem="oND-C0-mUp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="JjL-Mx-0dh"/>
+                            <constraint firstItem="oND-C0-mUp" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="K2o-OH-4FC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bz0-Tt-9eM" secondAttribute="trailing" id="Kzq-Z7-Rjy"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="oND-C0-mUp" secondAttribute="bottom" id="OUW-VH-6rE"/>
+                            <constraint firstItem="bz0-Tt-9eM" firstAttribute="centerY" secondItem="oND-C0-mUp" secondAttribute="centerY" id="WjG-tV-aXE"/>
+                            <constraint firstItem="5D3-R0-QCf" firstAttribute="trailing" secondItem="bz0-Tt-9eM" secondAttribute="trailing" id="ru9-FV-Ef8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashScreenBackground" width="360" height="640"/>
+    </resources>
+</document>

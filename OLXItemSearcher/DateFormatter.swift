@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class DateFormatterManager {
+ 
+  static let sharedInstance = DateFormatterManager()
+  
+  let iso8601Formatter = DateFormatter()
+  
+  init() {
+    iso8601Formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+  }
+  
+}

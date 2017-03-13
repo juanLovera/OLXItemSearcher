@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+struct Entity {
+  
+  struct ItemPersistent {
+    static let name = "ItemPersistent"
+    static let likedDate = "likedDate"
+  }
+  
+  struct ItemOptionalsPersistent {
+    static let name = "ItemOptionalsPersistent"
+  }
+  
+  struct ItemImagesDataPersistent {
+    static let name = "ItemImagesDataPersistent"
+  }
+  
+}

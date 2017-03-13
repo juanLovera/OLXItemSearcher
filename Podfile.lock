@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Haneke (1.0.2)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - Haneke (~> 1.0)
+  - SVProgressHUD (~> 2.1)
+  - SwiftyJSON (~> 3.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Haneke: 01454a67322faa0dd9d81fc0f447885044e71521
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 3e08c191c03b710b2e752ef120b61015a690ca7d
+
+COCOAPODS: 1.2.0

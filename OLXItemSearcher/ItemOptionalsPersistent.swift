@@ -10,10 +10,10 @@ import Foundation
 import CoreData
 
 
-public class ItemOptionals: NSManagedObject {
+public class ItemOptionalsPersistent: NSManagedObject {
   
-  @nonobjc public class func fetchRequest() -> NSFetchRequest<ItemOptionals> {
-    return NSFetchRequest<ItemOptionals>(entityName: "ItemOptionals");
+  @nonobjc public class func fetchRequest() -> NSFetchRequest<ItemOptionalsPersistent> {
+    return NSFetchRequest<ItemOptionalsPersistent>(entityName: "ItemOptionalsPersistent");
   }
   
   @NSManaged public var label: String
