@@ -12,7 +12,7 @@ This iPhone app shows publications and items from OLX's public API. It's highly 
 
 * Portrait & Landscape: screens in app were designed to work in all sizes and orientations.
 
-* Items details: tapping in an item or publication will show more details about it.
+* Items details: tapping on an item or publication will show more details about it.
 
 * Highly customizable and maintainable code.
 
